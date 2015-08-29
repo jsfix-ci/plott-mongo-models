@@ -9,10 +9,10 @@ Mongoose models used by plott.
 
 Mongoose models used by Plott.
 
+Models:
 
-### Models
+   - 'FingerPrints' Model that collects wifi fingerprint data.
 
-* FingerPrints - Model that collects wifi fingerprint data.
 
 ### Example
 

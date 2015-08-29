@@ -4,6 +4,10 @@ var mongoose = require('mongoose'),
 /**
  * Mongoose models used by Plott.
  *
+ * Models:
+ *
+ *    - 'FingerPrints' Model that collects wifi fingerprint data.
+ *
  * @module plott/mongoModels
  * @category mongodb
  * @return {Object} model
