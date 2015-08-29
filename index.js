@@ -8,12 +8,12 @@ var mongoose = require('mongoose'),
  * @category mongodb
  * @return {Object} model
  * @example
- * var Position = plott.mongoModels.Position;
+ * var FingerPrints = plott.mongoModels.FingerPrints;
  *
- * //=position model
+ * //=FingerPrints model
  */
 
-var Position = new Schema({
+var FingerPrints = new Schema({
   type: {type: String, default: "Feature"},
   properties: {
     address: {type: String, required: true},
@@ -35,5 +35,5 @@ var Position = new Schema({
 });
 
 module.exports = {
-    Postion: mongoose.model('Position', Position)
+    Postion: mongoose.model('FingerPrints', FingerPrints)
 };

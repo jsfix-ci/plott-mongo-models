@@ -2,7 +2,7 @@ var mongoModels = require('../'),
     test = require('tape');
 
     test('Position', function (t){
-      var Position = mongoModels.Position;
-      t.ok(typeof Position, 'Position Model');
+      var FingerPrints = mongoModels.FingerPrints;
+      t.ok(typeof FingerPrints, 'FingerPrints Model');
       t.end();
     });

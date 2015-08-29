@@ -10,12 +10,16 @@ Mongoose models used by plott.
 Mongoose models used by Plott.
 
 
+### Models
+
+* FingerPrints - Model that collects wifi fingerprint data.
+
 ### Example
 
 ```js
-var Position = plott.mongoModels.Position;
+var FingerPrints = plott.mongoModels.FingerPrints;
 
-//=position model
+//=FingerPrints model
 ```
 
 
@@ -34,5 +38,3 @@ $ npm install plott-mongo-models
 ```sh
 $ npm test
 ```
-
-
