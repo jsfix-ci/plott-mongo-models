@@ -1,0 +1,31 @@
+{
+  "name": "plott-mongo-models",
+  "version": "0.0.1",
+  "description": "Mongoose models used by plott.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plott/plott-mongo-models.git"
+  },
+  "keywords": [
+    "plott"
+  ],
+  "author": "Corey White",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Plott/plott-mongo-models/issues"
+  },
+  "homepage": "https://github.com/Plott/plott-mongo-models#readme",
+  "devDependencies": {
+    "tape": "~3.5.0",
+    "dox": "^0.7.1",
+    "doxme": "^1.8.2"
+  },
+  "dependencies": {
+    "mongoose": "^4.1.3"
+  }
+}
