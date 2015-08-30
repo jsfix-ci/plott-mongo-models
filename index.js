@@ -39,5 +39,5 @@ var FingerPrints = new Schema({
 });
 
 module.exports = {
-    Postion: mongoose.model('FingerPrints', FingerPrints)
+    FingerPrints: mongoose.model('FingerPrints', FingerPrints)
 };
